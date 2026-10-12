@@ -1,0 +1,18 @@
+[project]
+name = "california-here-we-come"
+version = "0.1.0"
+description = "Previsione del prezzo delle case in California tramite machine learning"
+readme = "README.md"
+authors = [
+    { name = "faarabb", email = "faarabb@gmail.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "jupyter>=1.1.1",
+    "matplotlib>=3.11.2",
+    "numpy>=2.4.6",
+    "pandas>=3.0.6",
+    "scikit-learn>=1.9.1",
+    "seaborn>=0.13.2",
+]
+
